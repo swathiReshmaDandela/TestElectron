@@ -10,7 +10,7 @@ const NOTIFICATION_TITLE = 'Basic Notification'
 const NOTIFICATION_BODY = 'Notification from the Main process'
 
 function showNotification () {
-  new Notification({ title: NOTIFICATION_TITLE, body: NOTIFICATION_BODY }).show()
+  new Notification({ title: NOTIFICATION_TITLE, body: NOTIFICATION_BODY, icon:`${__dirname}/../favicon.ico` }).show()
 }
 function createWindow() {
   win = new BrowserWindow({

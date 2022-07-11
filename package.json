@@ -6,6 +6,10 @@
   "main": "build/electron/main.js",
   "author": "Swathi",
   "description": "React-TypeScript-Electron sample with Create React App and Electron Builder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swathiReshmaDandela/TestElectron.git"
+  },
   "build": {
     "appId":"app.swathi.interceptor",
     "productName":"Electron React",
